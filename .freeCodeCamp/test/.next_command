@@ -87,3 +87,30 @@ history -a
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 psql --username=freecodecamp --dbname=postgres
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "# Bike-Rental-Shop" >> README.md
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git init
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add README.md
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m "first commit"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git branch -M main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin https://github.com/Sharlock221b-svg/Bike-Rental-Shop.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .

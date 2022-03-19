@@ -1,3 +1,22 @@
 ./bike-shop.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git pull
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git pull
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git branch --set-upstream-to=main/origin main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git branch --set-upstream-to=origin/main main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .

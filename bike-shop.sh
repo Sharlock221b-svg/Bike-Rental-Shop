@@ -149,8 +149,9 @@ RETURN_MENU() {
           # set bike availability to true
           SET_TO_TRUE_RESULT=$($PSQL "UPDATE bikes SET available = true WHERE bike_id = $BIKE_ID_TO_RETURN")
           
-          # send to main menu
+          # send to main menu lll
           MAIN_MENU "Thank you for returning your bike."
+
         fi
       fi
     fi
